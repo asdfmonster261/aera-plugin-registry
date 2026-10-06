@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "generated": "2026-10-03T21:49:46Z",
+  "generated": "2026-10-06T05:02:29Z",
   "plugins": [
     {
       "id": "mirror",
       "name": "AERA Mirror",
       "version": "0.3.1",
       "description": "Control AERA Recovery from a browser over Wi-Fi or USB.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/mirror/a16590fd1a84433b0f4eee9986bf3d7eb08a7c23/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/mirror/a16590fd1a84433b0f4eee9986bf3d7eb08a7c23/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/mirror/releases/download/v0.3.1/AERA-Mirror-0.3.1.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-mirror/a16590fd1a84433b0f4eee9986bf3d7eb08a7c23/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-mirror/a16590fd1a84433b0f4eee9986bf3d7eb08a7c23/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-mirror/releases/download/v0.3.1/AERA-Mirror-0.3.1.aerap",
       "package_size": 57868,
       "package_sha256": "540e8f5b6a284c3650ac73b9a12947ba1b5ec1467eb0599c3c61d30f9b7a4793",
       "localizations": {
@@ -148,9 +148,9 @@
       "name": "AERA Settings Backup",
       "version": "0.2.1",
       "description": "Back up and restore AERA Recovery preferences.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/settings-backup/b41339d12c6bc20308e03fa600061378fd0ca751/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/settings-backup/b41339d12c6bc20308e03fa600061378fd0ca751/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/settings-backup/releases/download/v0.2.1/AERA-Settings-Backup-0.2.1.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-settings-backup/b41339d12c6bc20308e03fa600061378fd0ca751/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-settings-backup/b41339d12c6bc20308e03fa600061378fd0ca751/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-settings-backup/releases/download/v0.2.1/AERA-Settings-Backup-0.2.1.aerap",
       "package_size": 26904,
       "package_sha256": "4b401ac2f1742e7fe5249041d5f776ff654048526262128a385bbaa79a60c2f3",
       "localizations": {
@@ -285,154 +285,13 @@
       }
     },
     {
-      "id": "browser",
-      "name": "AERA Browser",
-      "version": "1.5.2",
-      "description": "Full-height mobile WebKit browser with persistent cookies, configurable homepage and zoom, managed downloads, 120 Hz GPU compositing, video, and AERA speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/0a0ddfa1bb46f9004c6436416f7f6cea57772661/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/0a0ddfa1bb46f9004c6436416f7f6cea57772661/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/browser/releases/download/v1.5.2/AERA-Browser-1.5.2.aerap",
-      "package_size": 40963537,
-      "package_sha256": "4a2302aaeb2ae3e7683545dab74c407ba21c7b1ce57ff626c88559faa2f08ced",
-      "localizations": {
-        "ar_SA": {
-          "name": "AERA Browser",
-          "description": "متصفح WebKit مع التنزيلات والفيديو وعرض GPU وصوت مكبر الصوت."
-        },
-        "bg_BG": {
-          "name": "AERA Browser",
-          "description": "WebKit браузър с изтегляния, видео, GPU изобразяване и аудио на високоговорителя."
-        },
-        "bn_BD": {
-          "name": "AERA Browser",
-          "description": "ডাউনলোড, ভিডিও, GPU রেন্ডারিং এবং স্পিকার অডিও সহ WebKit ব্রাউজার।"
-        },
-        "ca_ES": {
-          "name": "AERA Browser",
-          "description": "Navegador WebKit amb baixades, vídeo, renderització GPU i àudio dels altaveus."
-        },
-        "cs_CZ": {
-          "name": "AERA Browser",
-          "description": "Prohlížeč WebKit se stahováním, videem, vykreslováním GPU a zvukem reproduktorů."
-        },
-        "de_DE": {
-          "name": "AERA Browser",
-          "description": "WebKit-Browser mit Downloads, Video, GPU-Rendering und Lautsprecher-Audio."
-        },
-        "el_GR": {
-          "name": "AERA Browser",
-          "description": "Πρόγραμμα περιήγησης WebKit με λήψεις, βίντεο, απόδοση GPU και ήχο ηχείων."
-        },
-        "es-ES": {
-          "name": "AERA Browser",
-          "description": "Navegador WebKit con descargas, video, renderizado GPU y audio de altavoz."
-        },
-        "fa_IR": {
-          "name": "AERA Browser",
-          "description": "مرورگر WebKit با دانلود، ویدیو، رندر GPU و صدای بلندگو."
-        },
-        "fr_FR": {
-          "name": "AERA Browser",
-          "description": "Navigateur WebKit avec téléchargements, vidéo, rendu GPU et audio du haut-parleur."
-        },
-        "he_IL": {
-          "name": "AERA Browser",
-          "description": "דפדפן WebKit עם הורדות, וידאו, עיבוד GPU ואודיו של רמקול."
-        },
-        "hi_IN": {
-          "name": "AERA Browser",
-          "description": "डाउनलोड, वीडियो, GPU रेंडरिंग और स्पीकर ऑडियो के साथ WebKit ब्राउज़र।"
-        },
-        "hu": {
-          "name": "AERA Browser",
-          "description": "WebKit böngésző letöltésekkel, videóval, GPU rendereléssel és hangszóró hanggal."
-        },
-        "id_ID": {
-          "name": "AERA Browser",
-          "description": "Browser WebKit dengan unduhan, video, rendering GPU, dan audio speaker."
-        },
-        "it_IT": {
-          "name": "AERA Browser",
-          "description": "Browser WebKit con download, video, rendering GPU e audio dell'altoparlante."
-        },
-        "ja_JP": {
-          "name": "AERA Browser",
-          "description": "ダウンロード、ビデオ、GPU レンダリング、スピーカー オーディオを備えた WebKit ブラウザー。"
-        },
-        "ko_KR": {
-          "name": "AERA Browser",
-          "description": "다운로드, 비디오, GPU 렌더링 및 스피커 오디오가 포함된 WebKit 브라우저."
-        },
-        "nl_NL": {
-          "name": "AERA Browser",
-          "description": "WebKit-browser met downloads, video, GPU-rendering en luidsprekeraudio."
-        },
-        "no_NO": {
-          "name": "AERA Browser",
-          "description": "WebKit-nettleser med nedlastinger, video, GPU-gjengivelse og høyttalerlyd."
-        },
-        "pl_PL": {
-          "name": "AERA Browser",
-          "description": "Przeglądarka WebKit z plikami do pobrania, wideo, renderowaniem GPU i dźwiękiem z głośników."
-        },
-        "pt_BR": {
-          "name": "AERA Browser",
-          "description": "Navegador WebKit com downloads, vídeo, renderização GPU e áudio do alto-falante."
-        },
-        "pt_PT": {
-          "name": "AERA Browser",
-          "description": "WebKit Browser com downloads, vídeo, renderização GPU e áudio do altifalante."
-        },
-        "ro_RO": {
-          "name": "AERA Browser",
-          "description": "Browser WebKit cu descărcări, videoclipuri, redare GPU și audio difuzor."
-        },
-        "ru": {
-          "name": "AERA Browser",
-          "description": "Браузер WebKit с загрузками, видео, рендерингом GPU и звуком динамика."
-        },
-        "sr_Cyrl": {
-          "name": "AERA Browser",
-          "description": "WebKit претраживач са преузимањима, видео записима, GPU рендеровањем и звуком звучника."
-        },
-        "sv_SE": {
-          "name": "AERA Browser",
-          "description": "WebKit-webbläsare med hämtningar, video, GPU-rendering och högtalarljud."
-        },
-        "th_TH": {
-          "name": "AERA Browser",
-          "description": "เบราว์เซอร์ WebKit พร้อมการดาวน์โหลด วิดีโอ การเรนเดอร์ GPU และเสียงลำโพง"
-        },
-        "tr_TR": {
-          "name": "AERA Browser",
-          "description": "İndirmeler, video, GPU oluşturma ve hoparlör sesi içeren WebKit tarayıcı."
-        },
-        "uk_UA": {
-          "name": "AERA Browser",
-          "description": "Браузер WebKit із завантаженнями, відео, рендерингом GPU і звуком динаміків."
-        },
-        "vi_VN": {
-          "name": "AERA Browser",
-          "description": "Trình duyệt WebKit với các bản tải xuống, video, kết xuất GPU và âm thanh loa."
-        },
-        "zh_CN": {
-          "name": "AERA Browser",
-          "description": "WebKit 浏览器，提供下载、视频、GPU 渲染和扬声器音频。"
-        },
-        "zh_TW": {
-          "name": "AERA Browser",
-          "description": "WebKit 瀏覽器，提供下載、視訊、GPU 渲染和揚聲器音訊。"
-        }
-      }
-    },
-    {
       "id": "media",
       "name": "AERA Media",
       "version": "1.2.2",
       "description": "Music and video player with rotation, timeline controls, and speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/9310095d97c05c49b31c1ca72d069d15888b5d35/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/9310095d97c05c49b31c1ca72d069d15888b5d35/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/media/releases/download/v1.2.2/AERA-Media-1.2.2.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-media/9310095d97c05c49b31c1ca72d069d15888b5d35/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-media/9310095d97c05c49b31c1ca72d069d15888b5d35/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-media/releases/download/v1.2.2/AERA-Media-1.2.2.aerap",
       "package_size": 7095085,
       "package_sha256": "7b7f314077bca58580e9a4aaa14b06bc588cd6e22f3b3772a3cfdc0dca593e16",
       "localizations": {
@@ -571,9 +430,9 @@
       "name": "AERA App Backup Vault",
       "version": "1.1.1",
       "description": "Encrypted per-app backups to internal or connected network storage.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/d0f88de358eac8304bceb3db21b76f0e0e420e20/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/d0f88de358eac8304bceb3db21b76f0e0e420e20/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/app-backup-vault/releases/download/v1.1.1/AERA-App-Backup-Vault-1.1.1.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-app-backup-vault/d0f88de358eac8304bceb3db21b76f0e0e420e20/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-app-backup-vault/d0f88de358eac8304bceb3db21b76f0e0e420e20/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-app-backup-vault/releases/download/v1.1.1/AERA-App-Backup-Vault-1.1.1.aerap",
       "package_size": 7626777,
       "package_sha256": "27c0070342c563dbc9bfe0a469743f2a1c82e70b7d08f49a9953c01d5a30d893",
       "localizations": {
@@ -712,9 +571,9 @@
       "name": "AERA Recorder",
       "version": "1.1.1",
       "description": "Record AERA Recovery as MP4 using native controls and OpenH264.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/46cba2651b6d73e1cd44aeb964634e2be3b112d0/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/46cba2651b6d73e1cd44aeb964634e2be3b112d0/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/recorder/releases/download/v1.1.1/AERA-Recorder-1.1.1.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-recorder/46cba2651b6d73e1cd44aeb964634e2be3b112d0/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-recorder/46cba2651b6d73e1cd44aeb964634e2be3b112d0/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-recorder/releases/download/v1.1.1/AERA-Recorder-1.1.1.aerap",
       "package_size": 4026402,
       "package_sha256": "d95814000e537b14cc36fd9bd40f16efc48b1c63475840e9818d68bcd7e9f62a",
       "localizations": {
@@ -853,9 +712,9 @@
       "name": "AERA Gallery",
       "version": "1.1.1",
       "description": "View images and AERA screenshots with zoom and pan (PNG/JPEG).",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/gallery/dae4f0dab0c5e2b47ffd272b31ef99d2f25ce493/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/gallery/dae4f0dab0c5e2b47ffd272b31ef99d2f25ce493/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/gallery/releases/download/v1.1.1/AERA-Gallery-1.1.1.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-gallery/dae4f0dab0c5e2b47ffd272b31ef99d2f25ce493/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-gallery/dae4f0dab0c5e2b47ffd272b31ef99d2f25ce493/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-gallery/releases/download/v1.1.1/AERA-Gallery-1.1.1.aerap",
       "package_size": 6818,
       "package_sha256": "8bfc796a80bd7e615e912075d0e5fe5a8c8c4e0fc020859fda8b7444af16dea1",
       "localizations": {
@@ -994,9 +853,9 @@
       "name": "AERA Telegram",
       "version": "1.3.4",
       "description": "A recovery-native client for the Telegram messaging service.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/8ab6a99e7e01a3c1005f97f9ef414135f1be3604/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/8ab6a99e7e01a3c1005f97f9ef414135f1be3604/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/telegram/releases/download/v1.3.4/AERA-Telegram-1.3.4.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-telegram/8ab6a99e7e01a3c1005f97f9ef414135f1be3604/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-telegram/8ab6a99e7e01a3c1005f97f9ef414135f1be3604/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-telegram/releases/download/v1.3.4/AERA-Telegram-1.3.4.aerap",
       "package_size": 7218680,
       "package_sha256": "8424008c8b59e9ec688865887a9cc68d37cd2f13534a1255875db4bab97b186f",
       "localizations": {
@@ -1135,9 +994,9 @@
       "name": "AERA RetroArch",
       "version": "1.1.2",
       "description": "Touch-optimized RetroArch with Game Boy emulation and speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/aa5bdc9b30bfb9e1359d3bf780f234fd796970ac/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/aa5bdc9b30bfb9e1359d3bf780f234fd796970ac/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/retroarch/releases/download/v1.1.2/AERA-RetroArch-1.1.2.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-retroarch/aa5bdc9b30bfb9e1359d3bf780f234fd796970ac/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-retroarch/aa5bdc9b30bfb9e1359d3bf780f234fd796970ac/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-retroarch/releases/download/v1.1.2/AERA-RetroArch-1.1.2.aerap",
       "package_size": 4450775,
       "package_sha256": "4dbb6dcab0339ace58ca97e8e7abd6384c3b6917997530f3da017465adf4964e",
       "localizations": {
@@ -1276,9 +1135,9 @@
       "name": "AERA Streams",
       "version": "0.2.2",
       "description": "Browse and search YouTube, SoundCloud, PeerTube, Bandcamp and media.ccc.de with thumbnails, categories, playlists, adaptive video and AERA audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/streams/a8c54d2f4d07fd62156ff5d0e4ecb7814d365dc0/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/streams/a8c54d2f4d07fd62156ff5d0e4ecb7814d365dc0/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/streams/releases/download/v0.2.2/AERA-Streams-0.2.2.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-streams/a8c54d2f4d07fd62156ff5d0e4ecb7814d365dc0/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-streams/a8c54d2f4d07fd62156ff5d0e4ecb7814d365dc0/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-streams/releases/download/v0.2.2/AERA-Streams-0.2.2.aerap",
       "package_size": 43435658,
       "package_sha256": "b2ccb46ef31ac2417e180e0a04f890d706ea6793b3b9fcb47120993b5a87fc15",
       "localizations": {
@@ -1417,9 +1276,9 @@
       "name": "AERA Doom",
       "version": "0.1.0",
       "description": "Standalone native Doom engine with touch controls, speaker audio, persistent saves and support for personal IWAD files.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/doom/39e440f65e28bfa6090e1daac5bc1ec756be16a8/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/doom/39e440f65e28bfa6090e1daac5bc1ec756be16a8/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/doom/releases/download/v0.1.0/AERA-Doom-0.1.0.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-doom/39e440f65e28bfa6090e1daac5bc1ec756be16a8/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-doom/39e440f65e28bfa6090e1daac5bc1ec756be16a8/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-doom/releases/download/v0.1.0/AERA-Doom-0.1.0.aerap",
       "package_size": 8005566,
       "package_sha256": "f76a2fdbab72689e4eb299867877b8e344cb066aaaf549c613879d3bee04b88e"
     },
@@ -1428,9 +1287,9 @@
       "name": "AERA SysInfo",
       "version": "0.1.3",
       "description": "Inspect live hardware, power, storage, boot, security, and device history data.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/sysinfo/de17e774ac4954e9df079865abfe59df4c8f96fb/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/sysinfo/de17e774ac4954e9df079865abfe59df4c8f96fb/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/sysinfo/releases/download/v0.1.3/AERA-SysInfo-0.1.3.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-sysinfo/de17e774ac4954e9df079865abfe59df4c8f96fb/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-sysinfo/de17e774ac4954e9df079865abfe59df4c8f96fb/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-sysinfo/releases/download/v0.1.3/AERA-SysInfo-0.1.3.aerap",
       "package_size": 54540,
       "package_sha256": "f40b31352f09ee2bd453a744e2f68df0958680311e35d754b556f0a101b8d3f2",
       "localizations": {
@@ -1457,9 +1316,9 @@
       "name": "Inter for AERA",
       "version": "0.1.0",
       "description": "A clean, highly legible interface typeface.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-inter/83d6ceb5e7ba794ca9b52bdb768f963910769ec3/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-inter/83d6ceb5e7ba794ca9b52bdb768f963910769ec3/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/font-inter/releases/download/v0.1.0/Inter-for-AERA-0.1.0.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-font-inter/83d6ceb5e7ba794ca9b52bdb768f963910769ec3/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-font-inter/83d6ceb5e7ba794ca9b52bdb768f963910769ec3/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-font-inter/releases/download/v0.1.0/Inter-for-AERA-0.1.0.aerap",
       "package_size": 877572,
       "package_sha256": "93690f8a5fc365441fb6aa9f958400bf4e7804622a5bf32ab1e252617dd48420"
     },
@@ -1468,9 +1327,9 @@
       "name": "Manrope for AERA",
       "version": "0.1.0",
       "description": "A modern geometric interface typeface.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-manrope/2ff461b5f85a7962431eb81f1cdcc40b62942c59/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-manrope/2ff461b5f85a7962431eb81f1cdcc40b62942c59/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/font-manrope/releases/download/v0.1.0/Manrope-for-AERA-0.1.0.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-font-manrope/2ff461b5f85a7962431eb81f1cdcc40b62942c59/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-font-manrope/2ff461b5f85a7962431eb81f1cdcc40b62942c59/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-font-manrope/releases/download/v0.1.0/Manrope-for-AERA-0.1.0.aerap",
       "package_size": 165699,
       "package_sha256": "e064d06321fbaefb2672568b28cac2da575356faf0eb6a9c511de12396539452"
     },
@@ -1479,9 +1338,9 @@
       "name": "Space Grotesk for AERA",
       "version": "0.1.0",
       "description": "A technical geometric interface typeface.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-space-grotesk/fff199787140de767a70662c23796f879097a72f/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-space-grotesk/fff199787140de767a70662c23796f879097a72f/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/font-space-grotesk/releases/download/v0.1.0/Space-Grotesk-for-AERA-0.1.0.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-font-space-grotesk/fff199787140de767a70662c23796f879097a72f/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-font-space-grotesk/fff199787140de767a70662c23796f879097a72f/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-font-space-grotesk/releases/download/v0.1.0/Space-Grotesk-for-AERA-0.1.0.aerap",
       "package_size": 137702,
       "package_sha256": "266fddaec032dacabe7cf20edc8496c20386db5624901eac90c37e5542584aa2"
     },
@@ -1490,9 +1349,9 @@
       "name": "Atkinson Hyperlegible Next for AERA",
       "version": "0.1.0",
       "description": "A high-legibility interface typeface.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-atkinson-hyperlegible-next/6736cc3401a6e2bc88c6e8de15c6dda7e0a34480/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-atkinson-hyperlegible-next/6736cc3401a6e2bc88c6e8de15c6dda7e0a34480/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/font-atkinson-hyperlegible-next/releases/download/v0.1.0/Atkinson-Hyperlegible-Next-for-AERA-0.1.0.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-font-atkinson-hyperlegible-next/6736cc3401a6e2bc88c6e8de15c6dda7e0a34480/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-font-atkinson-hyperlegible-next/6736cc3401a6e2bc88c6e8de15c6dda7e0a34480/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-font-atkinson-hyperlegible-next/releases/download/v0.1.0/Atkinson-Hyperlegible-Next-for-AERA-0.1.0.aerap",
       "package_size": 115626,
       "package_sha256": "c4094169c09822610f30e504271bfb3e495fa8febe2f11a0bd39fc79934dddbe"
     },
@@ -1501,9 +1360,9 @@
       "name": "IBM Plex Sans for AERA",
       "version": "0.1.0",
       "description": "A precise, professional interface typeface.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-ibm-plex-sans/924a1e3ab8dced0846d2a03c3c343ce79f4ce55d/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-ibm-plex-sans/924a1e3ab8dced0846d2a03c3c343ce79f4ce55d/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/font-ibm-plex-sans/releases/download/v0.1.0/IBM-Plex-Sans-for-AERA-0.1.0.aerap",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-font-ibm-plex-sans/924a1e3ab8dced0846d2a03c3c343ce79f4ce55d/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-font-ibm-plex-sans/924a1e3ab8dced0846d2a03c3c343ce79f4ce55d/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-font-ibm-plex-sans/releases/download/v0.1.0/IBM-Plex-Sans-for-AERA-0.1.0.aerap",
       "package_size": 538272,
       "package_sha256": "03abdcf3c2aaec69976f8f520657fcd7db8c0e3d434d0c0fa6070ec0ecf62b6a"
     }
