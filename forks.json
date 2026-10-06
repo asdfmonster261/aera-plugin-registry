@@ -1,6 +1,148 @@
 {
   "owner": "asdfmonster261",
   "prefix": "aera-plugin-",
-  "exclude": ["browser"],
-  "own": []
+  "exclude": [],
+  "own": [
+    {
+      "id": "browser",
+      "name": "AERA Browser",
+      "version": "1.5.2-yogi.1",
+      "description": "Full-height mobile WebKit browser with persistent cookies, configurable homepage and zoom, managed downloads and video, composited on the GPU on Adreno phones and with llvmpipe everywhere else.",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-browser/8f23b6503f7956d82fb1abe7ae4c3f299bd5a078/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-browser/8f23b6503f7956d82fb1abe7ae4c3f299bd5a078/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-browser/releases/download/v1.5.2-yogi.1/AERA-Browser-1.5.2-yogi.1.aerap",
+      "package_size": 56889586,
+      "package_sha256": "fdbdbdb7576aed1259fd1df3054844a87616bfa838868dbac6cc44fba41ca81d",
+      "localizations": {
+        "ar_SA": {
+          "name": "AERA Browser",
+          "description": "متصفح WebKit مع التنزيلات والفيديو وعرض GPU وصوت مكبر الصوت."
+        },
+        "bg_BG": {
+          "name": "AERA Browser",
+          "description": "WebKit браузър с изтегляния, видео, GPU изобразяване и аудио на високоговорителя."
+        },
+        "bn_BD": {
+          "name": "AERA Browser",
+          "description": "ডাউনলোড, ভিডিও, GPU রেন্ডারিং এবং স্পিকার অডিও সহ WebKit ব্রাউজার।"
+        },
+        "ca_ES": {
+          "name": "AERA Browser",
+          "description": "Navegador WebKit amb baixades, vídeo, renderització GPU i àudio dels altaveus."
+        },
+        "cs_CZ": {
+          "name": "AERA Browser",
+          "description": "Prohlížeč WebKit se stahováním, videem, vykreslováním GPU a zvukem reproduktorů."
+        },
+        "de_DE": {
+          "name": "AERA Browser",
+          "description": "WebKit-Browser mit Downloads, Video, GPU-Rendering und Lautsprecher-Audio."
+        },
+        "el_GR": {
+          "name": "AERA Browser",
+          "description": "Πρόγραμμα περιήγησης WebKit με λήψεις, βίντεο, απόδοση GPU και ήχο ηχείων."
+        },
+        "es-ES": {
+          "name": "AERA Browser",
+          "description": "Navegador WebKit con descargas, video, renderizado GPU y audio de altavoz."
+        },
+        "fa_IR": {
+          "name": "AERA Browser",
+          "description": "مرورگر WebKit با دانلود، ویدیو، رندر GPU و صدای بلندگو."
+        },
+        "fr_FR": {
+          "name": "AERA Browser",
+          "description": "Navigateur WebKit avec téléchargements, vidéo, rendu GPU et audio du haut-parleur."
+        },
+        "he_IL": {
+          "name": "AERA Browser",
+          "description": "דפדפן WebKit עם הורדות, וידאו, עיבוד GPU ואודיו של רמקול."
+        },
+        "hi_IN": {
+          "name": "AERA Browser",
+          "description": "डाउनलोड, वीडियो, GPU रेंडरिंग और स्पीकर ऑडियो के साथ WebKit ब्राउज़र।"
+        },
+        "hu": {
+          "name": "AERA Browser",
+          "description": "WebKit böngésző letöltésekkel, videóval, GPU rendereléssel és hangszóró hanggal."
+        },
+        "id_ID": {
+          "name": "AERA Browser",
+          "description": "Browser WebKit dengan unduhan, video, rendering GPU, dan audio speaker."
+        },
+        "it_IT": {
+          "name": "AERA Browser",
+          "description": "Browser WebKit con download, video, rendering GPU e audio dell'altoparlante."
+        },
+        "ja_JP": {
+          "name": "AERA Browser",
+          "description": "ダウンロード、ビデオ、GPU レンダリング、スピーカー オーディオを備えた WebKit ブラウザー。"
+        },
+        "ko_KR": {
+          "name": "AERA Browser",
+          "description": "다운로드, 비디오, GPU 렌더링 및 스피커 오디오가 포함된 WebKit 브라우저."
+        },
+        "nl_NL": {
+          "name": "AERA Browser",
+          "description": "WebKit-browser met downloads, video, GPU-rendering en luidsprekeraudio."
+        },
+        "no_NO": {
+          "name": "AERA Browser",
+          "description": "WebKit-nettleser med nedlastinger, video, GPU-gjengivelse og høyttalerlyd."
+        },
+        "pl_PL": {
+          "name": "AERA Browser",
+          "description": "Przeglądarka WebKit z plikami do pobrania, wideo, renderowaniem GPU i dźwiękiem z głośników."
+        },
+        "pt_BR": {
+          "name": "AERA Browser",
+          "description": "Navegador WebKit com downloads, vídeo, renderização GPU e áudio do alto-falante."
+        },
+        "pt_PT": {
+          "name": "AERA Browser",
+          "description": "WebKit Browser com downloads, vídeo, renderização GPU e áudio do altifalante."
+        },
+        "ro_RO": {
+          "name": "AERA Browser",
+          "description": "Browser WebKit cu descărcări, videoclipuri, redare GPU și audio difuzor."
+        },
+        "ru": {
+          "name": "AERA Browser",
+          "description": "Браузер WebKit с загрузками, видео, рендерингом GPU и звуком динамика."
+        },
+        "sr_Cyrl": {
+          "name": "AERA Browser",
+          "description": "WebKit претраживач са преузимањима, видео записима, GPU рендеровањем и звуком звучника."
+        },
+        "sv_SE": {
+          "name": "AERA Browser",
+          "description": "WebKit-webbläsare med hämtningar, video, GPU-rendering och högtalarljud."
+        },
+        "th_TH": {
+          "name": "AERA Browser",
+          "description": "เบราว์เซอร์ WebKit พร้อมการดาวน์โหลด วิดีโอ การเรนเดอร์ GPU และเสียงลำโพง"
+        },
+        "tr_TR": {
+          "name": "AERA Browser",
+          "description": "İndirmeler, video, GPU oluşturma ve hoparlör sesi içeren WebKit tarayıcı."
+        },
+        "uk_UA": {
+          "name": "AERA Browser",
+          "description": "Браузер WebKit із завантаженнями, відео, рендерингом GPU і звуком динаміків."
+        },
+        "vi_VN": {
+          "name": "AERA Browser",
+          "description": "Trình duyệt WebKit với các bản tải xuống, video, kết xuất GPU và âm thanh loa."
+        },
+        "zh_CN": {
+          "name": "AERA Browser",
+          "description": "WebKit 浏览器，提供下载、视频、GPU 渲染和扬声器音频。"
+        },
+        "zh_TW": {
+          "name": "AERA Browser",
+          "description": "WebKit 瀏覽器，提供下載、視訊、GPU 渲染和揚聲器音訊。"
+        }
+      }
+    }
+  ]
 }
