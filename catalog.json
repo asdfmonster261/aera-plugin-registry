@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-06T08:28:47Z",
+  "generated": "2026-10-07T05:08:15Z",
   "plugins": [
     {
       "id": "mirror",
@@ -287,13 +287,13 @@
     {
       "id": "browser",
       "name": "AERA Browser",
-      "version": "1.5.2-yogi.1",
+      "version": "1.5.4",
       "description": "Full-height mobile WebKit browser with persistent cookies, configurable homepage and zoom, managed downloads and video, composited on the GPU on Adreno phones and with llvmpipe everywhere else.",
-      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-browser/8f23b6503f7956d82fb1abe7ae4c3f299bd5a078/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-browser/8f23b6503f7956d82fb1abe7ae4c3f299bd5a078/plugin.json.sig",
-      "package_url": "https://github.com/asdfmonster261/aera-plugin-browser/releases/download/v1.5.2-yogi.1/AERA-Browser-1.5.2-yogi.1.aerap",
-      "package_size": 56889586,
-      "package_sha256": "fdbdbdb7576aed1259fd1df3054844a87616bfa838868dbac6cc44fba41ca81d",
+      "manifest_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-browser/6d956a38c335fd16254ae36326ce1992ac0fd7db/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/asdfmonster261/aera-plugin-browser/6d956a38c335fd16254ae36326ce1992ac0fd7db/plugin.json.sig",
+      "package_url": "https://github.com/asdfmonster261/aera-plugin-browser/releases/download/v1.5.4/AERA-Browser-1.5.4.aerap",
+      "package_size": 56885456,
+      "package_sha256": "229a2c096eda47f3e0ecc6cc3a3641af27a7de0679becf62c09a6dbbff8ac093",
       "localizations": {
         "ar_SA": {
           "name": "AERA Browser",
